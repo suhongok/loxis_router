@@ -1,0 +1,10 @@
+#direction_ip port distance
+monitor 192.168.2.2 6000 0
+east 192.168.3.2 5100 1 
+west 192.168.1.2 5100 1
+north 192.168.2.3 5100 1
+south 192.168.2.1 5100 1
+self:ip:local_port 
+self 192.168.2.2 5100 0
+self_position 2 2 
+self_router 192.168.2.2 5000
